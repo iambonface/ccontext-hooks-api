@@ -3,19 +3,25 @@ body {
 }
 
 .App {
-  margin: 20px auto;
-  width: 400px;
-  padding: 10px;
-}
-
-.App ul {
-  list-style: none;
-  padding: 5px;
-  border-radius: 10px;
   text-align: center;
 }
 
-.App ul li {
+nav {
+  padding: 5px;
+  border-bottom: 1px solid rgba(219, 219, 219, 1);
+  position: fixed;
+  height: 77px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul {
+  padding: 5px;
+}
+
+nav ul li {
   display: inline-block;
-  padding: 10px;
+  margin: 0 10px;
+  font-size: 1.2em;
 }
